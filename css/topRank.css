@@ -1,0 +1,332 @@
+
+/* navigation */
+body{
+    margin: 0;padding: 0%; overflow-x: hidden;
+}
+
+.colRed{
+    background-color: white;
+}
+.sk{
+    background-color: #BA122B;
+    transform-origin: bottom left;
+    transform: skew(-30deg);
+}
+
+
+.sk ul{
+    transform: skew(30deg);
+    margin-right: 30px;
+}
+@media screen and (max-width:565px) {
+    .sk {
+        transform: skew(0) !important;
+        
+    }
+    .sk ul{
+        transform: skew(0) !important;
+        
+    }
+    .sk button{
+        transform: skew(0) !important;
+        
+    }
+} 
+@media screen and (max-width:1007px) {
+    .sk {
+        transform: skew(0) !important;
+        
+    }
+    .sk ul{
+        transform: skew(0) !important;
+        
+    }
+    .sk button{
+        transform: skew(0) !important;
+        
+    }
+} 
+
+.sk button{
+    transform: skew(30deg);
+}
+
+.colGray{
+    background-color: #868686;
+}
+
+.txtDesign{
+    text-decoration: none;
+    color: white;
+}
+
+.ahover{
+    font-weight: 600;
+}
+
+.ahover:hover{
+    transition: 1s;
+    border-bottom: 3px solid #868686;  
+}
+
+
+/* carousel */
+.imageSen{
+    transition: 2s ease-in-out;
+}
+
+.carousel-control-prev{
+    font-weight: 1px;
+    box-sizing: border-box;
+    
+}
+
+.Aicon{
+    margin: 10px;
+    visibility: hidden;
+}
+
+#icon{
+    background-color: black;
+    transition: 1s;
+    /* transform: skew(-20deg); */
+}
+
+#icon:hover{
+    background-color: rgb(252, 184, 11);
+}
+
+
+.imageSen:hover .Aicon{
+    visibility: visible;
+}
+
+.WAU{
+    padding: 8px 25px;
+    border: 1px solid #30A8CC;
+    background-color: #30A8CC;
+    transition: 1s;
+}
+
+.WAU:hover{
+    border: 1px solid rgb(161, 47, 206);
+    background-color: rgb(161, 47, 206);
+    transition: 1s;
+}
+
+.WAU1{
+    padding: 8px 25px;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.WAU1:hover{
+    border: 1px solid rgb(161, 47, 206);
+    background-color: rgb(161, 47, 206);
+    transition: 1s;
+}
+
+.move{
+    top: 35%
+}
+
+/* APPLICATION FORM */
+.bridge{
+    background-color: #BA122B;
+    color: white;
+}
+
+.enLarge{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+    padding: 8px 25px;
+    background-color: #30A8CC;
+    transition: 1s;
+}
+
+.button:hover{
+    background-color: #BA122B;
+    transition: 1s;
+}
+
+/* ABOUT SCHOOL */
+.aboutTop{
+    margin-top: 90px;
+}
+
+#btLine{
+    border-bottom: 2px solid rgb(136, 133, 133);
+    display: block;
+    width: 60px;
+    margin: 20px 0 2px 0px;
+    margin-bottom: 60px;    
+}
+
+.alignImg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.moreAbt{
+    color: #0dbcf2;
+    border: 1px solid #BA122B;
+    padding: 10px 24px 10px 24px;
+    transition: 1s;
+}
+
+.moreAbt:hover{
+    color: white;
+    background-color: #BA122B;
+    transition: 1s;
+}
+
+.pView{
+    padding-top: 120px;
+}
+
+.viewCur{
+    color: white;
+    padding: 8px 25px;
+    background-color: #30A8CC;
+    transition: 1s;
+}
+
+.viewCur:hover{
+    color: white;
+    background-color: #BA122B;
+    transition: 1s;
+}
+
+
+/* OUR VMV */
+.bgVMV{
+    background-color: #868686;
+}
+
+.bord{
+    font-size: 70px;
+    padding: 15px;
+    border: 1px solid #BA122B;
+    background-color: #BA122B;
+    border-radius: 100% 
+}
+
+.highlight{
+    padding: 60px 20px 40px 15px;
+}
+
+.highlight:hover .bord{
+    color: #BA122B;
+    font-size: 70px;
+    padding: 15px;
+    border: 0px solid white;
+    background:  radial-gradient(circle, #868686, #868686, white);
+    border-radius: 100% 
+}
+
+/* NEWS */
+.up{
+    padding-top: 3px;
+}
+
+#btLine1{
+    border-bottom: 2px solid rgb(136, 133, 133);
+    display: block;
+    width: 50px;
+    margin: 20px 0 2px 47%;
+    margin-bottom: 60px;
+}
+
+.headline{
+    color: black;
+    font-weight: 600;
+}
+
+.headline:hover{
+    color: #BA122B;
+    font-weight: 600;
+}
+
+.headline1{
+    color: #868686;
+}
+
+.headline1:hover{
+    color: #868686;
+}
+
+.headline2{
+    color: #868686;
+    margin-left: 10px;
+}
+
+.headline2:hover{
+    color: #868686;
+}
+
+.cardCol{
+    background-color: #f0efef;
+}
+
+.imgCa{
+    position: relative;
+}
+
+.imgChild{
+    position: absolute;
+    margin-top: -70px;
+}
+.imgChild1{
+    position: absolute;
+    margin-top: -33px;
+    left: 61px;
+}
+
+.bg1{
+    font-size: 70px;
+    padding: 15px;
+    background-color: #BA122B;
+    color: white;
+}
+
+.bg2{
+    background-color: #868686;
+    color: white;
+    padding: 10px 15px;
+    display: inline;
+}
+
+
+/* Footer */
+.footBg{
+    background-color: rgb(22, 21, 21);
+}
+
+#btLine2{
+    border-bottom: 2px solid rgb(136, 133, 133);
+    display: block;
+    width: 30px;
+    margin: 15px 0 25px 0px;
+}
+
+.fadeWhite{
+    color: #868686;
+}
+
+.dot{
+    margin-top: -70px;
+    font-size: 40px;
+}
+
+#btLine3{
+    border-bottom: 1px solid rgb(136, 133, 133);
+    display: block;
+    width: 100%;
+    margin: 50px 0 20px 0px;
+}
+
+
+
